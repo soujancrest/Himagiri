@@ -8,6 +8,15 @@ body {
   font-family: "outfit";
 }
 
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+a:hover {
+  color: initial;
+}
+
 container {
   max-width: 1500px;
 }
@@ -17,7 +26,6 @@ container {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("/images/banner-image.png");
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
 
@@ -153,4 +161,89 @@ container {
   letter-spacing: 0.36px;
   color: #1a1b26;
   padding-left: 3rem;
+}
+
+.speci-sec {
+  height: 100vh;
+  background-image: url("/images/Spec-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.location-sec {
+  padding: 5rem 0;
+}
+
+.location-sec h1 {
+  font: normal normal 600 86px/57px Outfit;
+  letter-spacing: 1.72px;
+  color: #f48142;
+}
+
+.location-map {
+  text-align: center;
+}
+
+.location-map img {
+  width: 70%;
+  margin: 4rem 0;
+}
+
+.location-rig-col {
+  padding-left: 1rem;
+  margin-top: 2rem;
+}
+
+.location-rig-col h6 {
+  font: normal normal 600 20px/36px Outfit;
+  letter-spacing: 0.44px;
+  color: #1a1b26;
+}
+
+.location-rig-para {
+  font: normal normal normal 15px/26px Outfit;
+  letter-spacing: 0.36px;
+  color: #1a1b26;
+  margin-bottom: 2rem;
+  width: 90%;
+}
+
+.near-by p {
+  font-size: 12px;
+  line-height: 30px;
+  font-weight: 600;
+  letter-spacing: 0.28px;
+  color: #1a1b26;
+}
+
+/* footer */
+footer {
+  background-color: #e2e2e2;
+  padding: 5rem 0;
+}
+
+footer .social-links {
+  display: flex;
+  margin-top: 4rem;
+}
+
+footer .social-links a {
+  margin-right: 2rem;
+}
+
+.address-col {
+  margin-top: 2rem;
+}
+
+footer .address,
+footer .phone,
+footer .email {
+  display: flex;
+}
+
+footer .address img,
+footer .phone img,
+footer .email img {
+  height: 100%;
+  margin-right: 1rem;
 }
