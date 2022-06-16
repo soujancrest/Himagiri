@@ -93,7 +93,7 @@ padding-bottom: 1rem;}
 
 .home-about-sec {
   padding-top: 3rem;
- padding-bottom: 15rem;
+ padding-bottom: 10rem;
   background: #1a1b26 0% 0% no-repeat padding-box;
 }
 
@@ -145,7 +145,7 @@ padding: 2rem 0rem 1rem;
   right: -7rem;
   align-self: flex-end;
   color: #ffffff;
-  bottom: -10rem;
+  bottom: -6rem;
 }
 
 .home-about-num h2 {
@@ -257,9 +257,24 @@ padding: 2rem 0rem 1rem;
       width: auto;
       height: 21rem;
     }
-    ::-webkit-scrollbar {
-     display: none;
-    }
+   /* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-bottom: 2px solid #F48142;
+  background:transparent; 
+ }
+
+
+   
     .title h1{
       color: #F48142;
       font-size: 4rem;
@@ -279,6 +294,16 @@ padding: 2rem 0rem 1rem;
       text-align: left;
       padding: 14px;
       text-decoration: none;
+    }
+    .scroll-menu-content h2 {
+      font-family:'Outfit-Medium' ;
+      letter-spacing: 0.78px;
+color: #FFFFFF;
+    }
+    .scroll-menu-content p{
+      font-family:'Outfit-Regular' ;
+      letter-spacing: 0.36px;
+      color: #FFFFFF;
     }
 /* amenities-style-end */
 /* specificaion-styles */
@@ -459,4 +484,97 @@ footer .phone img,
 footer .email img {
   height: 100%;
   margin-right: 1rem;
+}
+
+/* media-queries */
+@media screen and (max-width: 620px) {
+  .container{
+    max-width: 400px;
+  }
+  .banner-sec {
+    height: 80vh;
+    background-position: inherit;
+}
+.banner-text h1 {
+  font-size: 3.1rem;}
+  .banner-text p {
+    width: 100%;}
+    .home-about-text h1{
+      font-size: 3rem;
+    }
+    .home-about-text h2{
+      font-size: 2rem;
+    }
+    .home-about-num {
+           right: 0rem;
+          bottom: -3rem;
+  }
+  .fp-plan-heading {
+    width: 100%;
+}
+.fp-img img {
+  width: 100%;
+}
+.title h1{
+  font-size: 3rem;
+  padding: 0rem 0rem;
+}
+.scroll-container{
+  padding: 5px 0px 5px 8px;
+}
+#mplan {
+  margin-left: 0rem;
+}
+.plan-para{
+  margin-left: 0rem;
+}
+#tfplan{
+  margin-top: 5%;
+}
+.amenities {
+  padding: 0rem 0rem 1rem;
+}
+.gridscroll img {
+  margin-right: 14px;
+  width: 100%;
+}
+.spec-heading {
+  text-align: left;
+  padding-left: 0rem;
+}
+.v-tab-buttons{
+  text-align: left;
+}
+.v-tab-buttons button{
+  font-size: .6rem;
+  width: 100%;
+}
+.tab-display {
+  padding: 2rem 0rem 0rem;}
+  .location-sec h1{
+    font-size: 3rem;
+  }
+  .near-by p{
+    font-size: .5rem;
+  }
+  .location-sec {
+    padding: 5rem 0rem 4rem;
+}
+.completed-title h1{
+  font-size: 2rem;
+    padding-bottom: 0rem;
+}
+div.scrollmenu div{
+  margin-top: -6rem;
+}
+.home-about-logo img {
+  width: 17%;
+}
+
+#order1{
+  order: 1;
+}
+#order2{
+  order: 2;
+}
 }
