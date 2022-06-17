@@ -142,7 +142,7 @@ padding: 2rem 0rem 1rem;
 
 .home-about-num {
   position: relative;
-  right: -7rem;
+   padding-left: 7rem;
   align-self: flex-end;
   color: #ffffff;
   bottom: -6rem;
@@ -487,6 +487,65 @@ footer .email img {
 }
 
 /* media-queries */
+@media screen and (min-width: 1920px) {
+}
+@media screen and (min-width: 1022px) and (max-width: 1500px) {
+  .container{
+    max-width: 1300px;
+  }
+  .banner-text h1{
+    font-size: 5rem;
+  }
+  .scroll-down{
+    padding-top: 0rem;
+  }
+  .home-about-text h2{
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 621px) and (max-width: 1021px) {
+  .banner-text h1{
+    font-size: 4.2rem;
+  }
+  .home-about-num{
+    padding-left: 1rem;
+  }
+  .fp-plan-heading {
+    width: 100%;
+}
+.fp-img img {
+  width: 100%;
+}
+.title h1{
+  font-size: 3rem;
+  padding: 0rem 0rem;
+}
+.scroll-container{
+  padding: 5px 0px 5px 8px;
+}
+.spec-heading {
+  text-align: left;
+  padding-left: 0rem;
+}
+.v-tab-buttons{
+  text-align: left;
+}
+.v-tab-buttons button{
+  font-size: .6rem;
+  width: 100%;
+}
+.tab-display {
+  padding: 2rem 0rem 0rem;}
+#mplan {
+  margin-left: 0rem;
+}
+#order1{
+  order: 1;
+}
+#order2{
+  order: 2;
+}
+}
 @media screen and (max-width: 620px) {
   .container{
     max-width: 400px;
@@ -506,7 +565,7 @@ footer .email img {
       font-size: 2rem;
     }
     .home-about-num {
-           right: 0rem;
+           padding-left: 0.5rem;
           bottom: -3rem;
   }
   .fp-plan-heading {
@@ -576,5 +635,11 @@ div.scrollmenu div{
 }
 #order2{
   order: 2;
+}
+}
+@media screen and (min-width: 1022px) and (max-width: 1270px) {
+  .spec-heading {
+    text-align: center;
+    padding-left: 18rem;
 }
 }
